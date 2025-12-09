@@ -10,9 +10,9 @@ les normes NF S97 homologuées par AFNOR définissent une structure de données 
 
 
 == Parser/Serializer
-Le projet `afnor-efs` fourni un parseur et un sérialiseur permetant de décoder ou encoder les différents messages définis par les normes NF S97.
+Le projet `nf-s97` fourni un parseur et un sérialiseur permetant de décoder ou encoder les différents messages définis par les normes NF S97.
 
-Le parseur retourne un objet conforme au modèle défini dans le package `fr.ans.afnor.efs.model`.
+Le parseur retourne un objet conforme au modèle défini dans le package `fr.aphp.nf.s97.model`.
 
 Le sérialiseur fait l'opération inverse.
 image::model.svg[Static,600]
@@ -32,7 +32,7 @@ Cela permet d'obtenir un objet même s'il y a des non conformités
 Cela implique qu'il est du ressort du consomateur de l'objet de s'assurer qu'il est valide.
 
 == Converter
-Le projet `afnor-converter` fourni un `Converter` pour être utilisé dans le framework d'intégration `Camel`.
+Le projet `nf-s97-converter` fourni un `Converter` pour être utilisé dans le framework d'intégration `Camel`.
 
 .route camel
 [source,java]
