@@ -3,6 +3,7 @@ NF S97 : Traçabilité des produits sanguins labiles
 
 == Introduction
 les normes NF S97 homologuées par AFNOR définissent une structure de données d'échange dans le cadre de la traçabilité des produits sangins labiles :
+
 - NF S97-530 Novembre 2010 Informatique de santé - Messages concernant la transfusion sanguine - Modèle de communication et de données.
 - NF S97-531 Novembre 2010 Informatique de santé - Messages concernant la transfusion sanguine - Message de délivrance de produits sanguins labiles et de retour sur délivrance.
 - NF S97-532 Novembre 2010 Informatique de santé - Messages concernant la transfusion sanguine - Message de distribution de produits sanguins labiles.
