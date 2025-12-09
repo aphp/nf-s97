@@ -1,0 +1,147 @@
+tag	name	libelle	format	required	occurence	nop	Table de codification	description	fields
+root	efs	ROOT		F	R			root element	aa,az,zz
+vy	abnormalResultsIndication	Indication de résultats anormaux	A10	F	U
+va	analyse	Analyse		F	R			analyse correspondant à l'examen	vd,vg,vj,vm,vp,vr,vt,vx,vy
+vd	analyseCode	Code analyse	A16	O	U		Table de codification	codification à convenir entre partenaires
+vg	analyseLabel	Libelle analyse	A35	F	U
+fm	autologous	Indication de transfusion autologue	A1	F	U		Table de codification	O pour Oui N pour Non ou R pour Ne sait pas (=rien)
+pb	bagComment	Commentaire libre sur poche	A100	F	U			Précisions sur la nature du mouvement
+pi	bagDate	Date_heure de péremption	Date	O	U			de la poche
+pc	bagFeature	Caractéristiques de la poche		F	R			Codification ANSM	pe,pf,pg,pn
+pc	bagFeature	Caractéristique demandée		F	R				pe,pf,pg,pn
+ph	bagId	Identification de la poche		O	U				pj,ej,pl,pm
+pl	bagIdType	Type identifiant	A5	O	U		Table de codification	Table de codification
+qb	billability	Facturabilité de la qualification	A1	F	U		Table de codification	O : Oui , N : Non
+rl	birthDate	Date de naissance	Date	O	U
+rm	birthPlace	lieu de naissance	A41	F	U			Ce champ doit être structuré comme suit : 3+3+35 Pour : 3 caractères pour le code Pays 3 caractères pour le code Département 35 caractères pour la commune
+ro	birthPlaceCode	Code lieu de naissance	A5	F	U
+pa	bloodBag	Poche		O	R				pb,pi,gc,ph,pc,pp,ja,ta,qa,oa
+az	body	Corps du message		O	U				ca,ia,ga,la,el,gb,fa
+em	commandRef	Commande référencée	A35	O	U			format libre
+el	commandRefList	Références commandes		F	R			Sortie de l'emetteur	em
+vr	confidential	Confidentiel	A1	F	U		Table de codification	Table de codification
+fi	cpsId	id CPS professionnel de sante dans ES	A30	F	U			ADELI ou RPPS
+rz	dataShare	accord de partage des données	A1	F	U			O=consentement du patient au partage des données N = Refus
+gf	delivComment	Commentaire libre sur distribution	A100	F	U
+ge	delivDate	Date heure de la distribution	Date	O	U			sortie de l'emetteur
+gg	deliverer	Emetteur de la distribution		O	U				ua,ea
+ga	delivery	Délivrance		O	U				gc,ge,gg,ha,fa,pa
+gc	delivId	identifiant de la délivrance	A25	O	U			généré par l'application émettrice
+gb	distribution	Distribution		O	U			Il s'agit de mouvement de distribution	gc,ge,gf,ek,ep,er,et,ev,ex,ez,gg,ha,hh
+ek	distributionType	Type de distribution	A10	F	U		Table de codification	DIST-TG Distribution transport gratuit DIST-TP Distribution transport payant
+sk	docPeriod	délai de validité RAI	A2	F	U			Pour CGR : 3 jours par défaut
+pp	donation	Information sur le don		F	U			n'a de sens qu'en cas de mélange	pr,ps,pu,pw
+pm	donationNumber	Numéro de don ou melange	A20	O	U
+pw	donationWeight	Poids du don	A10	F	U			en grammes
+rb	efsPatientId	Identification du patient à l'ES		O	R			Identification du patient à l'ES	rq,rn,sh
+zz	end	Fin de message		O	U
+ej	etabCode	Code ETS	A4	O	U		Table de codification	Table de codification : codification nationale à 4 chiffres
+ta	exam	Examen		O	R			l'examen groupe ABOD est obligatoire	tc,th,tj,tk,va
+tc	examCode	Code examen	A16	O	U		Table de codification	codification à convenir entre partenaires
+tb	examCodeType	Type de code examen	A16	O	U		Table de codification	Codification proposée : Bioforma (table nationale de biologie de la CNAMTS -restreinte aux actes en B de la Nomemclature des actes de biologie médicale-) ou ANSM (codification ANSM).
+tk	examConclusion	Conclusion examen	A200	F	U			compte rendu décrit sous forme de commentaires
+th	examLabel	Libellé examen	A35	F	U
+tj	examResp	Designation responsable	A35	F	U			responsable de la validation biologique
+tn	examResquest	Examen demandé		F	R				tb,tc,th
+fl	expectedDate	Date-Heure prévue de la transfusion	Date	O	U			Généré par l'auteur de la prescription. Obligatoire si Ferme NU ou réserve.
+nf	Explanation	Explication	A100	F	U			Commentaire libre sur retour ou destruction
+rd	familyName	Nom de famille	A60	O	U			Obligatoire, le nom de naissance est égal au nom de famille
+pe	featCode	Code caractéristiques	A16	O	U		Table de codification
+pf	featLabel	libellé caractéristique	A35	F	U		Table de codification
+pg	featUnit	unité caractéristique	A10	O	U		Table de codification	Table de codification
+pn	featValue	valeur caractéristique	A10	O	U
+fw	fileName	Nom du fichier joint	A128	N	U			Ce champ ne contient q'un seul nom de fichier. La nomenclature du nom de fichier sera précisée entre partenaires mais doit garantir une unicité universelle du nom du fichier.
+sh	finessCode	Code Finess ou RMESS	A20	O	U			de l'ES dans lequel est l'unité destinataire
+rf	firstname	Prénom	A35	O	U			Ce champ est obligatoire
+rg	firstname2	2eme prénom	A35	F	U
+kc	genericCode	Code PSL générique	A10	O	U		Table de codification	Codification ANSM
+kb	genericCodeType	Type de code PSL générique	A10	O	U		Table de codification	Type de codification utilisée : exemple : cn pour Codification nationale gérée par l'ANSM
+ka	genericId	Identification de PSL générique		O	U				kb,kc
+aa	header	Entête standard		O	U				ad,af,ah,ai,ar,ax
+lh	heathUnit	Service de soins utilisateur		O	U				ua
+rv	hemoglobin	Taux d'hémoglobine	DCnn.dd	F	U			. Pour un patient avec un taux d’hémoglobine à 14.8g/L, les formats acceptés sont les suivants : 14.80/14,80.
+rq	indentType	Type d'identifiant	A10	O	U		Table de codification	Codification ANSM
+rh	maritalName	Nom marital	A60	F	U
+ja	mdsAdd	MDS additionnel		F	U			n'a de sens qu'en cas de sang reconstitué	jb,jc,jd
+jc	mdsCode	Code produit	A20	O	U
+jb	mdsCodeType	Type de code produit	A10	O	U		Table de codification	ANSM : code à 5 chiffres. CIP code à 8 chiffres
+za	messageConformity	Conformité du message	A1	O	U		O,N	O: oui , N: Non
+ad	msgId	identifiant de message	A15	O	U			généré par l'application émettrice
+ax	msgRef	identifiant du message concerné	A15	F	U			requis si Rôle = ANN ou REMPL
+af	msgType	Type de message	A15	O	U		Table de codification
+ep	natureOfMovement	Nature du mouvement	A10	O	U		Table de codification	DIST-DD /DIST-RDD / DIST-LFB / DIST-EFS / DIST-RET-NC / DIST-REFS
+oi	natureOfResult	Nature résultat	A16	O	U		Table de codification	Code EFS provisoires : VOL : volume PDS : poids
+nd	noTransDate	Date de retour ou destruction	Date	O	U
+na	noTransfusion	Non transfusion		O	U	B		Cas de non transfusion	nd,nf
+rw	otherIndication	Autre indication		F	U
+hh	packet	Colis		O	R				hi,pa
+hi	packetId	Numéro de colis	A15	F	U			Obligatoire si plus d'un colis
+jd	packetNumber	Numero de lot	A20	O	U
+ra	patient	Patient		O	U			personne désignée dans la prescription	rd,rh,rk,rf,ek,ef,rg,re,ri,rj,rl,rm,ro,rx,rs,rt,rv,rw,ru,rz,rb,rp,ec,ej
+ri	patientComment	désignation complementaire	A35	F	U			par exemple : in utéro
+rn	patientId	Identifiant du patient	A25	O	U			identifiant du patient généré par l'ES
+rs	patientWeight	Poids du patient en Kg	DCnnn.ddd	O	U			Obligatoire si prescription de plaquettes. Pour un patient de 50 kg, les formats acceptés sont les suivants : 50/50.0/50,0/50.00/50,000/050.000. Pour un nourrisson de 800g : 0.800 ou 000.800
+pr	pickingDate	Date heure prélèvement	Date	F	U
+pu	pickingVolume	Volume prélevé	A10	F	U			en centimètres cube
+ps	pikingType	Type de prélèvement	A10	F	U		Table de codification	Exemples de codes provisoires EFS : PREL-SANG : prélèvement de sang total PREL-APLAQ : prélèvement par aphérèse de plaquettes PREL-AGRAN : prélèvement par aphérèse de granulocytes PREL-AMONO : prélèvement par aphérèse de cellules mononuclées PREL-APLAS : prélèvement par aphérèse de plasma PREL-CTRL : prélèvement tube pour contrôle
+ru	plasmaIndication	Indication du plasma	A25	F	U			Obligatoire si prescription de plasma
+rt	plateletCount	Numération plaquettaire	DCnnnn.dd	O	U			Obligatoire si prescription de plaquettes. Pour un patient avec une numération plaquettaire 1423 giga/L, les formats acceptés sont les suivants : 1453/1453.0/1453,0/1453.00. Pour un patient avec une numération plaquettaire 945 giga/L, les formats acceptés sont les suivants : 0945/945/945.0/945,00
+fn	presComment	Commentaire commande PSL	A200	F	U			Commentaire libre pour préciser la commande
+ff	prescriber	Medecin prescripteur		O	U				fh,fi,fj,fk,sh,sj,sk
+fk	prescriberFirstname	prenom	A35	O	U			prenom du prescripteur
+fh	prescriberId	id professionnel de sante dans ES	A20	F	U			identifiant généré par l'ES du prescipteur
+fj	prescriberName	nom	A60	O	U			nom du prescripteur
+fa	prescription	Prescription de PSL		O	U				fg,fe,fc,fb,fl,fm,fn,ua,ff,ra,fd
+fb	presDate	Date-Heure prescription	Date	O	U			Généré par l'auteur de la prescription
+fd	presElement	Elément de prescription de PSL		O	R				kd,ka,pc,qa,tn
+fc	presId	id prescription	A25	F	U			généré par l'auteur de la prescription. Elle doit être unique au sein de l'ES
+fg	presType	Type de prescription	A1	O	U		Table de codification	F: Ferme , R:Réservation D: Déréservation L: Levée de réserve
+oa	process	Etape de process		F	R				oc,oe,og
+oc	processCode	Code process	A5	O	U			PREP: préparation codes de transformation EFS (note 95.0073BAJ/AF/CH du 1995-02-20 : exemple déleucocytation)
+oe	processDate	Date_heure process	Date	O	U
+og	processInfo	Info process		F	R				oi,ok,on
+pj	productCode	Code produit	A5	O	U		Table de codification	Codification des produits
+ex	provisionDate	Date et heure de mise à disposition	Date	F	U
+ev	provisionLocation	Lieu de mise à disposition	A100	F	U
+qd	qualifCode	Code qualification	A5	O	U		Table de codification	codes de qualification EFS (note95.0073BA/AF/CH du 1995-02-20; exemple 40002: phénotypé)
+qh	qualifDate	Date_heure qualification	Date	F	U
+qa	qualification	Qualification du produit		F	R				qb,qd,qh
+vx	reagentIdentifier	Identifiant Réactif	A10	F	U
+ia	receiver	Destinataire du message		O	U				ua,ea
+ha	recipient	Destinataire de la distribution							ua,ea
+vj	result	Résultat	A200	O	U		Table de codification
+vj	result	Valeur résultat	A200	O	U		Table de codification	Table de codification
+vm	resultDate	date_heure résultat	Date	F	U			Facultatif par opposition à la spécification obligatoire du ministère concernant les échanges avec les laboratoires
+vp	resultUnit	unité résultat	A10	O	U		Table de codification	Peut être une unité de mesure (résultat quantitatif) ou l'indication du système de codification utilisé (résultat qualitatif).Pour les codifications EFS, prendre EFS_xxx où xxx=nature de la codification (exemple : ABOD pour le résultat d'analyse du groupe ABOD)
+ar	role	rôle	A10	O	U		Table de codification	Table de codification
+ca	sender	emetteur du message		O	U				ua,ea
+ez	senderName	Désignation du responsable expédition	A35	F	U			Responsable de l'expédition des PSL
+ai	sendingDate	date_heure_emission	Date	O	U			AAAMMJJHHMMSS
+rj	sex	Sexe	A1	O	U		Table de codification	Table de codification : M: Masculin F: Féminin I: Inconnu
+ea	site	Site TS		O	U	B			ec,ee,ef,ej
+ef	siteAdress	Adresse Site TS	A100	F	U
+sj	siteAdress	adresse ES	A100	F	U			de l'établissement du prescripteur
+ec	siteCode	Code Site TS	A4	F	U		Table de codification	Codification ANSM
+ee	siteLabel	Libelle Site TS	A35	F	U
+rp	sitePatientId	Identifiant ETS du patient	A25	F	U			identifiant du patient généré par l'ETS
+md	transDate	Date et Heure du début de la Transfusion	Date	O	U
+ry	transfProtocol	protocole transfusionnel	A20	O	U			Obligatoire si néonatalogie ou pédiatrie
+rx	transfProtocolList	identification du protocole transfusionnel		F	R			protocole transfusionnel	ry
+ma	transfusion	Transfusion		O	U	A		Cas de la transfusion	md,ra
+et	transporter	Transporteur	A100	F	U
+er	transportMode	Mode de transport	A10	F	U		Table de codification	Table de codification
+ua	unit	Unite		O	U			Le destinataire est toujours une unité de l'ES	ud,uf,uj,sh,ua,ra,fc,za
+uj	unitAdress	adresse unité	A100	F	U
+ud	unitCode	code unité	A10	O	U
+uf	unitLabel	libelle unité	A35	F	U
+ok	unitOfResult	Unité résultat	A10	O	U		Table de codification	Peut être une unité de mesure (résultat quantitatif) ou l'indication du système de codification utilisé (résultat qualitatif). Pour les codifications EFS, prendre EFS_xxx où xxx=nature de la codification (exemple : ABOD pour le résultat d'analyse du groupe ABOD)
+kd	unitsNumber	Nombre d'unités	A2	O	U
+fe	urgencyLevel	Niveau d'urgence de la délivrance	A3	O	U		Table de codification	Seulement si F ou L UVI = Urgence vitale immédiate UV = Urgence vitale UR = Urgence relative NU = Non urgent
+la	usage	Utilisation de poche		O	R				lc,lf,lh,ma,na,pa
+lf	usageComment	Commentaire	A3	O	U		Table de codification	Exemples : RAS : Transfusion sans problème RET: Produit retourné DTR : Produit détruit accidentellement IT : Incident transfusionnel
+lc	usageId	Identifiant de l'utilisation	A10	F	U			Généré par l'application émetrice
+re	usualFirstname	prénom usuel	A35	F	U
+rk	usualName	Nom usuel	A60	F	U
+vt	validationType	Type Validation	A1	O	U		Table de codification	En principe, les analyses sont validées biologiquement à ce niveau fonctionnel
+on	valueOfResult	Valeur résultat	A200	O	U
+ah	version	numéro de version	A20	O	U			AFNOR suivi de l'indice de classement : exemple : AFNOR S97-531

@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>nf-s97-parent</artifactId>
+		<version>1.3.2</version>
+		<groupId>fr.aphp.nf.s97</groupId>
+	</parent>
+
+	<artifactId>nf-s97-processor</artifactId>
+
+	<packaging>jar</packaging>
+	<name>APHP :: NF :: S97 :: PROCESSOR</name>
+
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.13.0</version>
+				<configuration>
+					<compilerArgument>-proc:none</compilerArgument>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<description>Processeur d'annotation
+Valide la conformité du modèle de classes défini ans afnor-efs.</description>
+</project>

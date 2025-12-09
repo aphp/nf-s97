@@ -1,0 +1,175 @@
+{
+  "header" : {
+    "msgId" : "11274115",
+    "msgType" : "EFS_DIST_NOM",
+    "version" : "AFNOR S 97-531",
+    "sendingDate" : "20240124105431",
+    "role" : "ORI"
+  },
+  "body" : {
+    "sender" : {
+      "unit" : {
+        "unitCode" : "000432",
+        "finessCode" : "930100045"
+      },
+      "site" : {
+        "siteCode" : "9310",
+        "etabCode" : "9310"
+      }
+    },
+    "receiver" : {
+      "unit" : {
+        "unitCode" : "000433",
+        "finessCode" : "930100046"
+      }
+    },
+    "delivery" : {
+      "delivId" : "9825921",
+      "delivDate" : "20240124105032",
+      "deliverer" : {
+        "site" : {
+          "siteCode" : "9310",
+          "etabCode" : "9310"
+        }
+      },
+      "recipient" : [ {
+        "unit" : {
+          "unitCode" : "000434",
+          "finessCode" : "930100047"
+        }
+      } ],
+      "prescription" : {
+        "prescriber" : {
+          "prescriberName" : "DR xxxxx",
+          "prescriberFirstname" : "DR xxxxx",
+          "finessCode" : "930100045"
+        },
+        "patient" : {
+          "familyName" : "xxxxx",
+          "maritalName" : "xxxxx xxxxxxxxx xxxxxx",
+          "firstname" : "xxxx",
+          "sex" : "x",
+          "birthDate" : "xxxxxxxx",
+          "transfProtocolList" : [ {
+            "transfProtocol" : "152"
+          }, {
+            "transfProtocol" : "9632587"
+          } ],
+          "efsPatientId" : [ {
+            "indentType" : "123",
+            "patientId" : "abcd",
+            "finessCode" : "xxxxxxxxx"
+          } ],
+          "sitePatientId" : "xxxxxxxxxx",
+          "etabCode" : "9310"
+        }
+      },
+      "bloodBag" : [ {
+        "bagDate" : "20240127155500",
+        "bagId" : {
+          "productCode" : "13201",
+          "etabCode" : "7599",
+          "bagIdType" : "11D",
+          "donationNumber" : "67240601443"
+        },
+        "bagFeature" : [ {
+          "featCode" : "00007",
+          "featLabel" : "Nombre de plaquettes",
+          "featUnit" : "10E-11",
+          "featValue" : "1,51"
+        }, {
+          "featCode" : "00002",
+          "featLabel" : "Hématocrite de la poche",
+          "featUnit" : "%",
+          "featValue" : "45"
+        }, {
+          "featCode" : "00003",
+          "featLabel" : "Volume total du produit",
+          "featUnit" : "mL",
+          "featValue" : "94"
+        } ],
+        "exam" : [ {
+          "examCode" : "ABO-RH1",
+          "analyse" : [ {
+            "analyseCode" : "ABO-RH1",
+            "result" : "510",
+            "resultUnit" : "ABO_RH1",
+            "validationType" : "O"
+          } ]
+        }, {
+          "examCode" : "PHEN-RHK",
+          "analyse" : [ {
+            "analyseCode" : "RH2",
+            "result" : "1",
+            "resultUnit" : "PHEN_RHK",
+            "validationType" : "O"
+          }, {
+            "analyseCode" : "RH3",
+            "result" : "0",
+            "resultUnit" : "PHEN_RHK",
+            "validationType" : "O"
+          }, {
+            "analyseCode" : "RH4",
+            "result" : "1",
+            "resultUnit" : "PHEN_RHK",
+            "validationType" : "O"
+          }, {
+            "analyseCode" : "RH5",
+            "result" : "1",
+            "resultUnit" : "PHEN_RHK",
+            "validationType" : "O"
+          }, {
+            "analyseCode" : "KEL1",
+            "result" : "1",
+            "resultUnit" : "PHEN_RHK",
+            "validationType" : "O"
+          } ]
+        }, {
+          "examCode" : "SERO-QBD",
+          "analyse" : [ {
+            "analyseCode" : "HIV1/2",
+            "result" : "0",
+            "resultUnit" : "SERO_QBD",
+            "validationType" : "O"
+          }, {
+            "analyseCode" : "TPHA",
+            "result" : "0",
+            "resultUnit" : "SERO_QBD",
+            "validationType" : "O"
+          }, {
+            "analyseCode" : "AcHBc",
+            "result" : "0",
+            "resultUnit" : "SERO_QBD",
+            "validationType" : "O"
+          }, {
+            "analyseCode" : "HBs",
+            "result" : "0",
+            "resultUnit" : "SERO_QBD",
+            "validationType" : "O"
+          }, {
+            "analyseCode" : "HCV",
+            "result" : "0",
+            "resultUnit" : "SERO_QBD",
+            "validationType" : "O"
+          } ]
+        }, {
+          "examCode" : "HEMOL",
+          "analyse" : [ {
+            "analyseCode" : "HEMOL-DEP",
+            "result" : "0",
+            "resultUnit" : "HEMOL",
+            "validationType" : "O"
+          } ]
+        }, {
+          "examCode" : "RAE-QBD",
+          "analyse" : [ {
+            "analyseCode" : "RAE",
+            "result" : "0",
+            "resultUnit" : "RAE_QBD",
+            "validationType" : "O"
+          } ]
+        } ]
+      } ]
+    }
+  }
+}

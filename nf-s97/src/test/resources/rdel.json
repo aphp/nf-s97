@@ -1,0 +1,57 @@
+{
+  "header" : {
+    "msgId" : "000000000017688",
+    "msgType" : "EFS_RETOUR_DN",
+    "version" : "AFNOR S 97-531",
+    "sendingDate" : "20180703145345",
+    "role" : "ORI"
+  },
+  "body" : {
+    "sender" : {
+      "unit" : {
+        "unitCode" : "068136",
+        "finessCode" : "920100054"
+      }
+    },
+    "receiver" : {
+      "site" : {
+        "siteCode" : "7802",
+        "etabCode" : "7802"
+      }
+    },
+    "usage" : [ {
+      "usageComment" : "RAS",
+      "heathUnit" : {
+        "unit" : {
+          "unitCode" : "068136",
+          "finessCode" : "920100054"
+        }
+      },
+      "transfusion" : {
+        "transDate" : "20180702220500",
+        "patient" : {
+          "familyName" : "xxxx",
+          "maritalName" : "xxxx",
+          "firstname" : "xxxx",
+          "sex" : "F",
+          "birthDate" : "19301105",
+          "efsPatientId" : [ {
+            "patientId" : "8009675469",
+            "finessCode" : "920100054"
+          } ],
+          "sitePatientId" : "4761156902",
+          "etabCode" : "7802"
+        }
+      },
+      "bloodBag" : [ {
+        "delivId" : "3514368",
+        "bagId" : {
+          "productCode" : "04171",
+          "etabCode" : "7599",
+          "bagIdType" : "11D",
+          "donationNumber" : "6718115825-"
+        }
+      } ]
+    } ]
+  }
+}
