@@ -1,0 +1,257 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" data-diagram-type="CLASS" height="950px" preserveAspectRatio="none" style="width:511px;height:950px;background:#FFFFFF;" version="1.1" viewBox="0 0 511 950" width="511px" zoomAndPan="magnify">
+    <defs/>
+    <g>
+        <!--class Efs-->
+        <g class="entity" data-entity="Efs" data-source-line="1" data-uid="ent0002" id="entity_Efs">
+            <rect fill="#F1F1F1" height="80.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="135.4639" x="101.66" y="7"/>
+            <ellipse cx="154.6078" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M157.5765,28.6406 Q156.9984,28.9375 156.3578,29.0781 Q155.7171,29.2344 155.014,29.2344 Q152.514,29.2344 151.1859,27.5938 Q149.8734,25.9375 149.8734,22.8125 Q149.8734,19.6875 151.1859,18.0313 Q152.514,16.375 155.014,16.375 Q155.7171,16.375 156.3578,16.5313 Q157.014,16.6875 157.5765,16.9844 L157.5765,19.7031 Q156.9515,19.125 156.3578,18.8594 Q155.764,18.5781 155.139,18.5781 Q153.7953,18.5781 153.1078,19.6563 Q152.4203,20.7188 152.4203,22.8125 Q152.4203,24.9063 153.1078,25.9844 Q153.7953,27.0469 155.139,27.0469 Q155.764,27.0469 156.3578,26.7813 Q156.9515,26.5 157.5765,25.9219 L157.5765,28.6406 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="21.0684" x="175.1078" y="27.8467">Efs</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="102.66" x2="236.1239" y1="39" y2="39"/>
+            <ellipse cx="112.66" cy="52.6484" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109.4639" x="121.66" y="55.9951">header: Header</text>
+            <ellipse cx="112.66" cy="68.9453" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79.1328" x="121.66" y="72.292">body: Body</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="102.66" x2="236.1239" y1="79.5938" y2="79.5938"/>
+        </g>
+        <!--class Header-->
+        <g class="entity" data-entity="Header" data-source-line="5" data-uid="ent0003" id="entity_Header">
+            <rect fill="#F1F1F1" height="129.4844" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="114.7783" x="7" y="163.89"/>
+            <ellipse cx="36.3112" cy="179.89" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M39.28,185.5306 Q38.7019,185.8275 38.0612,185.9681 Q37.4206,186.1244 36.7175,186.1244 Q34.2175,186.1244 32.8894,184.4838 Q31.5769,182.8275 31.5769,179.7025 Q31.5769,176.5775 32.8894,174.9213 Q34.2175,173.265 36.7175,173.265 Q37.4206,173.265 38.0612,173.4213 Q38.7175,173.5775 39.28,173.8744 L39.28,176.5931 Q38.655,176.015 38.0612,175.7494 Q37.4675,175.4681 36.8425,175.4681 Q35.4987,175.4681 34.8112,176.5463 Q34.1237,177.6088 34.1237,179.7025 Q34.1237,181.7963 34.8112,182.8744 Q35.4987,183.9369 36.8425,183.9369 Q37.4675,183.9369 38.0612,183.6713 Q38.655,183.39 39.28,182.8119 L39.28,185.5306 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50.9756" x="53.4915" y="184.7367">Header</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="120.7783" y1="195.89" y2="195.89"/>
+            <ellipse cx="18" cy="209.5384" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64.1553" x="27" y="212.8851">msgType</text>
+            <ellipse cx="18" cy="225.8353" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51.2764" x="27" y="229.182">version</text>
+            <ellipse cx="18" cy="242.1322" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88.7783" x="27" y="245.4789">sendingDate</text>
+            <ellipse cx="18" cy="258.4291" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26.8242" x="27" y="261.7757">role</text>
+            <ellipse cx="18" cy="274.7259" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53.0879" x="27" y="278.0726">msgRef</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="120.7783" y1="285.3744" y2="285.3744"/>
+        </g>
+        <!--class Body-->
+        <g class="entity" data-entity="Body" data-source-line="12" data-uid="ent0004" id="entity_Body">
+            <rect fill="#F1F1F1" height="162.0781" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="238.126" x="156.33" y="147.59"/>
+            <ellipse cx="253.4721" cy="163.59" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M256.4408,169.2306 Q255.8627,169.5275 255.2221,169.6681 Q254.5815,169.8244 253.8783,169.8244 Q251.3783,169.8244 250.0502,168.1837 Q248.7377,166.5275 248.7377,163.4025 Q248.7377,160.2775 250.0502,158.6212 Q251.3783,156.965 253.8783,156.965 Q254.5815,156.965 255.2221,157.1212 Q255.8783,157.2775 256.4408,157.5744 L256.4408,160.2931 Q255.8158,159.715 255.2221,159.4494 Q254.6283,159.1681 254.0033,159.1681 Q252.6596,159.1681 251.9721,160.2462 Q251.2846,161.3087 251.2846,163.4025 Q251.2846,165.4962 251.9721,166.5744 Q252.6596,167.6369 254.0033,167.6369 Q254.6283,167.6369 255.2221,167.3712 Q255.8158,167.09 256.4408,166.5119 L256.4408,169.2306 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35.3418" x="273.9721" y="168.4367">Body</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="157.33" x2="393.456" y1="179.59" y2="179.59"/>
+            <ellipse cx="167.33" cy="193.2384" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106.832" x="176.33" y="196.5851">sender: Sender</text>
+            <ellipse cx="167.33" cy="209.5353" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127.5859" x="176.33" y="212.882">receiver: Receiver</text>
+            <ellipse cx="167.33" cy="225.8322" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="176.33" y="229.1789">delivery: Delivery</text>
+            <ellipse cx="167.33" cy="242.1291" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95.0332" x="176.33" y="245.4757">usage: Usage</text>
+            <ellipse cx="167.33" cy="258.4259" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175.916" x="176.33" y="261.7726">prescription: Prescription</text>
+            <ellipse cx="167.33" cy="274.7228" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="212.126" x="176.33" y="278.0695">commandsRef: CommandsRef</text>
+            <ellipse cx="167.33" cy="291.0197" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="170.625" x="176.33" y="294.3664">distribution: Distribution</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="157.33" x2="393.456" y1="301.6681" y2="301.6681"/>
+        </g>
+        <!--class Sender-->
+        <g class="entity" data-entity="Sender" data-source-line="21" data-uid="ent0005" id="entity_Sender">
+            <rect fill="#F1F1F1" height="80.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="90.791" x="165.99" y="689.53"/>
+            <ellipse cx="185.1129" cy="705.53" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M188.0817,711.1706 Q187.5036,711.4675 186.8629,711.6081 Q186.2223,711.7644 185.5192,711.7644 Q183.0192,711.7644 181.6911,710.1238 Q180.3786,708.4675 180.3786,705.3425 Q180.3786,702.2175 181.6911,700.5613 Q183.0192,698.905 185.5192,698.905 Q186.2223,698.905 186.8629,699.0613 Q187.5192,699.2175 188.0817,699.5144 L188.0817,702.2331 Q187.4567,701.655 186.8629,701.3894 Q186.2692,701.1081 185.6442,701.1081 Q184.3004,701.1081 183.6129,702.1863 Q182.9254,703.2488 182.9254,705.3425 Q182.9254,707.4363 183.6129,708.5144 Q184.3004,709.5769 185.6442,709.5769 Q186.2692,709.5769 186.8629,709.3113 Q187.4567,709.03 188.0817,708.4519 L188.0817,711.1706 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49.6289" x="200.0292" y="710.3767">Sender</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="166.99" x2="255.781" y1="721.53" y2="721.53"/>
+            <ellipse cx="176.99" cy="735.1784" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64.791" x="185.99" y="738.5251">unit: Unit</text>
+            <ellipse cx="176.99" cy="751.4753" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61.332" x="185.99" y="754.822">site: Site</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="166.99" x2="255.781" y1="762.1238" y2="762.1238"/>
+        </g>
+        <!--class Receiver-->
+        <g class="entity" data-entity="Receiver" data-source-line="25" data-uid="ent0006" id="entity_Receiver">
+            <rect fill="#F1F1F1" height="80.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="93.1953" x="37.79" y="689.53"/>
+            <ellipse cx="52.79" cy="705.53" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M55.7588,711.1706 Q55.1806,711.4675 54.54,711.6081 Q53.8994,711.7644 53.1963,711.7644 Q50.6963,711.7644 49.3681,710.1238 Q48.0556,708.4675 48.0556,705.3425 Q48.0556,702.2175 49.3681,700.5613 Q50.6963,698.905 53.1963,698.905 Q53.8994,698.905 54.54,699.0613 Q55.1963,699.2175 55.7588,699.5144 L55.7588,702.2331 Q55.1338,701.655 54.54,701.3894 Q53.9463,701.1081 53.3213,701.1081 Q51.9775,701.1081 51.29,702.1863 Q50.6025,703.2488 50.6025,705.3425 Q50.6025,707.4363 51.29,708.5144 Q51.9775,709.5769 53.3213,709.5769 Q53.9463,709.5769 54.54,709.3113 Q55.1338,709.03 55.7588,708.4519 L55.7588,711.1706 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61.1953" x="66.79" y="710.3767">Receiver</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="38.79" x2="129.9853" y1="721.53" y2="721.53"/>
+            <ellipse cx="48.79" cy="735.1784" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64.791" x="57.79" y="738.5251">unit: Unit</text>
+            <ellipse cx="48.79" cy="751.4753" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61.332" x="57.79" y="754.822">site: Site</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="38.79" x2="129.9853" y1="762.1238" y2="762.1238"/>
+        </g>
+        <!--class Unit-->
+        <g class="entity" data-entity="Unit" data-source-line="29" data-uid="ent0007" id="entity_Unit">
+            <rect fill="#F1F1F1" height="113.1875" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="102.7334" x="92.02" y="830.12"/>
+            <ellipse cx="126.0255" cy="846.12" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M128.9942,851.7606 Q128.4161,852.0575 127.7755,852.1981 Q127.1348,852.3544 126.4317,852.3544 Q123.9317,852.3544 122.6036,850.7137 Q121.2911,849.0575 121.2911,845.9325 Q121.2911,842.8075 122.6036,841.1512 Q123.9317,839.495 126.4317,839.495 Q127.1348,839.495 127.7755,839.6512 Q128.4317,839.8075 128.9942,840.1044 L128.9942,842.8231 Q128.3692,842.245 127.7755,841.9794 Q127.1817,841.6981 126.5567,841.6981 Q125.213,841.6981 124.5255,842.7762 Q123.838,843.8387 123.838,845.9325 Q123.838,848.0262 124.5255,849.1044 Q125.213,850.1669 126.5567,850.1669 Q127.1817,850.1669 127.7755,849.9012 Q128.3692,849.62 128.9942,849.0419 L128.9942,851.7606 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28.499" x="144.2489" y="850.9667">Unit</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="93.02" x2="193.7534" y1="862.12" y2="862.12"/>
+            <ellipse cx="103.02" cy="875.7684" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62.9658" x="112.02" y="879.1151">unitCode</text>
+            <ellipse cx="103.02" cy="892.0653" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64.8936" x="112.02" y="895.412">unitLabel</text>
+            <ellipse cx="103.02" cy="908.3622" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74.5459" x="112.02" y="911.7089">unitAdress</text>
+            <ellipse cx="103.02" cy="924.6591" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76.7334" x="112.02" y="928.0057">finessCode</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="93.02" x2="193.7534" y1="935.3075" y2="935.3075"/>
+        </g>
+        <!--class Site-->
+        <g class="entity" data-entity="Site" data-source-line="36" data-uid="ent0008" id="entity_Site">
+            <rect fill="#F1F1F1" height="113.1875" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="98.707" x="230.04" y="830.12"/>
+            <ellipse cx="262.9627" cy="846.12" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M265.9314,851.7606 Q265.3533,852.0575 264.7127,852.1981 Q264.072,852.3544 263.3689,852.3544 Q260.8689,852.3544 259.5408,850.7137 Q258.2283,849.0575 258.2283,845.9325 Q258.2283,842.8075 259.5408,841.1512 Q260.8689,839.495 263.3689,839.495 Q264.072,839.495 264.7127,839.6512 Q265.3689,839.8075 265.9314,840.1044 L265.9314,842.8231 Q265.3064,842.245 264.7127,841.9794 Q264.1189,841.6981 263.4939,841.6981 Q262.1502,841.6981 261.4627,842.7762 Q260.7752,843.8387 260.7752,845.9325 Q260.7752,848.0262 261.4627,849.1044 Q262.1502,850.1669 263.4939,850.1669 Q264.1189,850.1669 264.7127,849.9012 Q265.3064,849.62 265.9314,849.0419 L265.9314,851.7606 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26.8789" x="280.9455" y="850.9667">Site</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="231.04" x2="327.747" y1="862.12" y2="862.12"/>
+            <ellipse cx="241.04" cy="875.7684" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61.127" x="250.04" y="879.1151">siteCode</text>
+            <ellipse cx="241.04" cy="892.0653" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63.0547" x="250.04" y="895.412">siteLabel</text>
+            <ellipse cx="241.04" cy="908.3622" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72.707" x="250.04" y="911.7089">siteAdress</text>
+            <ellipse cx="241.04" cy="924.6591" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67.4092" x="250.04" y="928.0057">etabCode</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="231.04" x2="327.747" y1="935.3075" y2="935.3075"/>
+        </g>
+        <!--class Distribution-->
+        <g class="entity" data-entity="Distribution" data-source-line="43" data-uid="ent0009" id="entity_Distribution">
+            <rect fill="#F1F1F1" height="259.8594" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="162.5547" x="261.11" y="369.67"/>
+            <ellipse cx="298.1055" cy="385.67" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M301.0743,391.3106 Q300.4961,391.6075 299.8555,391.7481 Q299.2149,391.9044 298.5118,391.9044 Q296.0118,391.9044 294.6836,390.2637 Q293.3711,388.6075 293.3711,385.4825 Q293.3711,382.3575 294.6836,380.7012 Q296.0118,379.045 298.5118,379.045 Q299.2149,379.045 299.8555,379.2012 Q300.5118,379.3575 301.0743,379.6544 L301.0743,382.3731 Q300.4493,381.795 299.8555,381.5294 Q299.2618,381.2481 298.6368,381.2481 Q297.293,381.2481 296.6055,382.3262 Q295.918,383.3887 295.918,385.4825 Q295.918,387.5762 296.6055,388.6544 Q297.293,389.7169 298.6368,389.7169 Q299.2618,389.7169 299.8555,389.4512 Q300.4493,389.17 301.0743,388.5919 L301.0743,391.3106 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81.6758" x="316.9934" y="390.5167">Distribution</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="262.11" x2="422.6647" y1="401.67" y2="401.67"/>
+            <ellipse cx="272.11" cy="415.3184" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46.5801" x="281.11" y="418.6651">delivId</text>
+            <ellipse cx="272.11" cy="431.6153" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67.0264" x="281.11" y="434.962">delivDate</text>
+            <ellipse cx="272.11" cy="447.9122" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102.1563" x="281.11" y="451.2589">delivComment</text>
+            <ellipse cx="272.11" cy="464.2091" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114.1191" x="281.11" y="467.5557">distributionType</text>
+            <ellipse cx="272.11" cy="480.5059" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123.498" x="281.11" y="483.8526">movementNature</text>
+            <ellipse cx="272.11" cy="496.8028" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102.833" x="281.11" y="500.1495">transportMode</text>
+            <ellipse cx="272.11" cy="513.0997" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79.0576" x="281.11" y="516.4464">transporter</text>
+            <ellipse cx="272.11" cy="529.3966" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123.4639" x="281.11" y="532.7432">provisionLocation</text>
+            <ellipse cx="272.11" cy="545.6934" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97.4668" x="281.11" y="549.0401">provisionDate</text>
+            <ellipse cx="272.11" cy="561.9903" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89.3389" x="281.11" y="565.337">senderName</text>
+            <ellipse cx="272.11" cy="578.2872" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135.666" x="281.11" y="581.6339">deliverer: Deliverer</text>
+            <ellipse cx="272.11" cy="594.5841" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136.5547" x="281.11" y="597.9307">recipient: Recipient</text>
+            <ellipse cx="272.11" cy="610.8809" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105.9297" x="281.11" y="614.2276">bundle: Bundle</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="262.11" x2="422.6647" y1="621.5294" y2="621.5294"/>
+        </g>
+        <!--class Deliverer-->
+        <g class="entity" data-entity="Deliverer" data-source-line="59" data-uid="ent0010" id="entity_Deliverer">
+            <rect fill="#F1F1F1" height="80.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="96.1963" x="291.29" y="689.53"/>
+            <ellipse cx="306.29" cy="705.53" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M309.2588,711.1706 Q308.6806,711.4675 308.04,711.6081 Q307.3994,711.7644 306.6963,711.7644 Q304.1963,711.7644 302.8681,710.1238 Q301.5556,708.4675 301.5556,705.3425 Q301.5556,702.2175 302.8681,700.5613 Q304.1963,698.905 306.6963,698.905 Q307.3994,698.905 308.04,699.0613 Q308.6963,699.2175 309.2588,699.5144 L309.2588,702.2331 Q308.6338,701.655 308.04,701.3894 Q307.4463,701.1081 306.8213,701.1081 Q305.4775,701.1081 304.79,702.1863 Q304.1025,703.2488 304.1025,705.3425 Q304.1025,707.4363 304.79,708.5144 Q305.4775,709.5769 306.8213,709.5769 Q307.4463,709.5769 308.04,709.3113 Q308.6338,709.03 309.2588,708.4519 L309.2588,711.1706 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64.1963" x="320.29" y="710.3767">Deliverer</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="292.29" x2="386.4863" y1="721.53" y2="721.53"/>
+            <ellipse cx="302.29" cy="735.1784" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64.791" x="311.29" y="738.5251">unit: Unit</text>
+            <ellipse cx="302.29" cy="751.4753" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61.332" x="311.29" y="754.822">site: Site</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="292.29" x2="386.4863" y1="762.1238" y2="762.1238"/>
+        </g>
+        <!--class other-->
+        <g class="entity" data-entity="other" data-source-line="64" data-uid="ent0011" id="entity_other">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="45.3506" x="458.71" y="475.6"/>
+            <ellipse cx="473.71" cy="491.6" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M476.6788,497.2406 Q476.1006,497.5375 475.46,497.6781 Q474.8194,497.8344 474.1163,497.8344 Q471.6163,497.8344 470.2881,496.1937 Q468.9756,494.5375 468.9756,491.4125 Q468.9756,488.2875 470.2881,486.6312 Q471.6163,484.975 474.1163,484.975 Q474.8194,484.975 475.46,485.1312 Q476.1163,485.2875 476.6788,485.5844 L476.6788,488.3031 Q476.0538,487.725 475.46,487.4594 Q474.8663,487.1781 474.2413,487.1781 Q472.8975,487.1781 472.21,488.2562 Q471.5225,489.3187 471.5225,491.4125 Q471.5225,493.5062 472.21,494.5844 Q472.8975,495.6469 474.2413,495.6469 Q474.8663,495.6469 475.46,495.3812 Q476.0538,495.1 476.6788,494.5219 L476.6788,497.2406 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="13.3506" x="487.71" y="496.4467">...</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="459.71" x2="503.0606" y1="507.6" y2="507.6"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="459.71" x2="503.0606" y1="515.6" y2="515.6"/>
+        </g>
+        <!--class other2-->
+        <g class="entity" data-entity="other2" data-source-line="65" data-uid="ent0012" id="entity_other2">
+            <rect fill="#F1F1F1" height="48" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="45.3506" x="422.71" y="705.83"/>
+            <ellipse cx="437.71" cy="721.83" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1;"/>
+            <path d="M440.6788,727.4706 Q440.1006,727.7675 439.46,727.9081 Q438.8194,728.0644 438.1163,728.0644 Q435.6163,728.0644 434.2881,726.4237 Q432.9756,724.7675 432.9756,721.6425 Q432.9756,718.5175 434.2881,716.8612 Q435.6163,715.205 438.1163,715.205 Q438.8194,715.205 439.46,715.3612 Q440.1163,715.5175 440.6788,715.8144 L440.6788,718.5331 Q440.0538,717.955 439.46,717.6894 Q438.8663,717.4081 438.2413,717.4081 Q436.8975,717.4081 436.21,718.4862 Q435.5225,719.5487 435.5225,721.6425 Q435.5225,723.7362 436.21,724.8144 Q436.8975,725.8769 438.2413,725.8769 Q438.8663,725.8769 439.46,725.6112 Q440.0538,725.33 440.6788,724.7519 L440.6788,727.4706 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="13.3506" x="451.71" y="726.6767">...</text>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="423.71" x2="467.0606" y1="737.83" y2="737.83"/>
+            <line style="stroke:#181818;stroke-width:0.5;" x1="423.71" x2="467.0606" y1="745.83" y2="745.83"/>
+        </g>
+        <!--link Efs to Header-->
+        <g class="link" data-entity-1="Efs" data-entity-2="Header" data-source-line="66" data-uid="lnk13" id="link_Efs_Header">
+            <path codeLine="66" d="M146.35,87.65 C133.31,109.92 119.7107,133.1317 104.8507,158.5217" fill="none" id="Efs-to-Header" style="stroke:#181818;stroke-width:1;stroke-dasharray:7,7;"/>
+            <polygon fill="#181818" points="101.82,163.7,109.8183,157.953,104.3456,159.3847,102.9139,153.9121,101.82,163.7" style="stroke:#181818;stroke-width:1;"/>
+        </g>
+        <!--link Efs to Body-->
+        <g class="link" data-entity-1="Efs" data-entity-2="Body" data-source-line="67" data-uid="lnk14" id="link_Efs_Body">
+            <path codeLine="67" d="M192.65,87.65 C203.01,105.18 212.5554,121.3357 224.7754,141.9957" fill="none" id="Efs-to-Body" style="stroke:#181818;stroke-width:1;stroke-dasharray:7,7;"/>
+            <polygon fill="#181818" points="227.83,147.16,226.691,137.3772,225.2845,142.8564,219.8053,141.45,227.83,147.16" style="stroke:#181818;stroke-width:1;"/>
+        </g>
+        <!--link Body to Sender-->
+        <g class="link" data-entity-1="Body" data-entity-2="Sender" data-source-line="68" data-uid="lnk15" id="link_Body_Sender">
+            <path codeLine="68" d="M255.06,309.98 C250.69,329.42 246.46,350.21 243.39,369.67 C225.16,484.99 216.8133,616.9077 213.4533,683.2877" fill="none" id="Body-to-Sender" style="stroke:#181818;stroke-width:1;stroke-dasharray:7,7;"/>
+            <polygon fill="#181818" points="213.15,689.28,217.5999,680.4937,213.4028,684.2864,209.6101,680.0893,213.15,689.28" style="stroke:#181818;stroke-width:1;"/>
+        </g>
+        <!--link Body to Receiver-->
+        <g class="link" data-entity-1="Body" data-entity-2="Receiver" data-source-line="69" data-uid="lnk16" id="link_Body_Receiver">
+            <path codeLine="69" d="M235.7,310.07 C226.66,329.42 217.37,350.14 209.39,369.67 C162.78,483.82 119.4516,616.8269 98.4516,683.5369" fill="none" id="Body-to-Receiver" style="stroke:#181818;stroke-width:1;stroke-dasharray:7,7;"/>
+            <polygon fill="#181818" points="96.65,689.26,103.1678,681.8764,98.1513,684.4907,95.537,679.4742,96.65,689.26" style="stroke:#181818;stroke-width:1;"/>
+        </g>
+        <!--link Body to Distribution-->
+        <g class="link" data-entity-1="Body" data-entity-2="Distribution" data-source-line="70" data-uid="lnk17" id="link_Body_Distribution">
+            <path codeLine="70" d="M295.4,309.97 C300.07,328.7 303.6982,343.2883 308.7482,363.5383" fill="none" id="Body-to-Distribution" style="stroke:#181818;stroke-width:1;stroke-dasharray:7,7;"/>
+            <polygon fill="#181818" points="310.2,369.36,311.9034,359.6596,308.9901,364.5086,304.1411,361.5953,310.2,369.36" style="stroke:#181818;stroke-width:1;"/>
+        </g>
+        <!--link Body to other-->
+        <g class="link" data-entity-1="Body" data-entity-2="other" data-source-line="71" data-uid="lnk18" id="link_Body_other">
+            <path codeLine="71" d="M388.7,309.92 C408.33,327.82 427.01,347.99 441.39,369.67 C463.27,402.68 472.7097,442.3823 477.2597,469.5723" fill="none" id="Body-to-other" style="stroke:#181818;stroke-width:1;stroke-dasharray:7,7;"/>
+            <polygon fill="#181818" points="478.25,475.49,480.7097,465.9532,477.4248,470.5586,472.8194,467.2736,478.25,475.49" style="stroke:#181818;stroke-width:1;"/>
+        </g>
+        <!--link Sender to Unit-->
+        <g class="link" data-entity-1="Sender" data-entity-2="Unit" data-source-line="72" data-uid="lnk19" id="link_Sender_Unit">
+            <path codeLine="72" d="M194.05,770.31 C186.14,788.33 179.0506,804.4856 170.4206,824.1556" fill="none" id="Sender-to-Unit" style="stroke:#181818;stroke-width:1;stroke-dasharray:7,7;"/>
+            <polygon fill="#181818" points="168.01,829.65,175.2889,823.0154,170.0189,825.0713,167.963,819.8013,168.01,829.65" style="stroke:#181818;stroke-width:1;"/>
+        </g>
+        <!--link Sender to Site-->
+        <g class="link" data-entity-1="Sender" data-entity-2="Site" data-source-line="73" data-uid="lnk20" id="link_Sender_Site">
+            <path codeLine="73" d="M228.72,770.31 C236.63,788.33 243.7294,804.4856 252.3594,824.1556" fill="none" id="Sender-to-Site" style="stroke:#181818;stroke-width:1;stroke-dasharray:7,7;"/>
+            <polygon fill="#181818" points="254.77,829.65,254.817,819.8013,252.7611,825.0713,247.4911,823.0154,254.77,829.65" style="stroke:#181818;stroke-width:1;"/>
+        </g>
+        <!--link Receiver to Unit-->
+        <g class="link" data-entity-1="Receiver" data-entity-2="Unit" data-source-line="74" data-uid="lnk21" id="link_Receiver_Unit">
+            <path codeLine="74" d="M99.43,770.31 C106.29,788.33 112.4049,804.3728 119.8949,824.0428" fill="none" id="Receiver-to-Unit" style="stroke:#181818;stroke-width:1;stroke-dasharray:7,7;"/>
+            <polygon fill="#181818" points="122.03,829.65,122.5654,819.8157,120.2507,824.9773,115.0891,822.6626,122.03,829.65" style="stroke:#181818;stroke-width:1;"/>
+        </g>
+        <!--link Receiver to Site-->
+        <g class="link" data-entity-1="Receiver" data-entity-2="Site" data-source-line="75" data-uid="lnk22" id="link_Receiver_Site">
+            <path codeLine="75" d="M131.19,766.54 C155.55,785.28 185.74,808.74 212.39,830.12 C218.05,834.66 219.3009,835.655 225.1409,840.445" fill="none" id="Receiver-to-Site" style="stroke:#181818;stroke-width:1;stroke-dasharray:7,7;"/>
+            <polygon fill="#181818" points="229.78,844.25,225.358,835.4497,225.9141,841.0791,220.2846,841.6352,229.78,844.25" style="stroke:#181818;stroke-width:1;"/>
+        </g>
+        <!--link Distribution to Deliverer-->
+        <g class="link" data-entity-1="Distribution" data-entity-2="Deliverer" data-source-line="76" data-uid="lnk23" id="link_Distribution_Deliverer">
+            <path codeLine="76" d="M340.69,629.72 C340.41,651.3 340.2078,666.1605 339.9878,683.1205" fill="none" id="Distribution-to-Deliverer" style="stroke:#181818;stroke-width:1;stroke-dasharray:7,7;"/>
+            <polygon fill="#181818" points="339.91,689.12,344.0264,680.1726,339.9749,684.1204,336.0271,680.0689,339.91,689.12" style="stroke:#181818;stroke-width:1;"/>
+        </g>
+        <!--link Distribution to other2-->
+        <g class="link" data-entity-1="Distribution" data-entity-2="other2" data-source-line="77" data-uid="lnk24" id="link_Distribution_other2">
+            <path codeLine="77" d="M400.66,629.72 C413.86,658.97 423.9917,681.4112 432.4317,700.1112" fill="none" id="Distribution-to-other2" style="stroke:#181818;stroke-width:1;stroke-dasharray:7,7;"/>
+            <polygon fill="#181818" points="434.9,705.58,434.8435,695.7313,432.8431,701.0227,427.5517,699.0223,434.9,705.58" style="stroke:#181818;stroke-width:1;"/>
+        </g>
+        <!--link Deliverer to Unit-->
+        <g class="link" data-entity-1="Deliverer" data-entity-2="Unit" data-source-line="78" data-uid="lnk25" id="link_Deliverer_Unit">
+            <path codeLine="78" d="M291.01,768.38 C267.26,786.89 238.26,809.59 212.39,830.12 C206.73,834.62 205.5068,835.5938 199.6268,840.2938" fill="none" id="Deliverer-to-Unit" style="stroke:#181818;stroke-width:1;stroke-dasharray:7,7;"/>
+            <polygon fill="#181818" points="194.94,844.04,204.4676,841.5452,198.8456,840.9181,199.4727,835.2961,194.94,844.04" style="stroke:#181818;stroke-width:1;"/>
+        </g>
+        <!--link Deliverer to Site-->
+        <g class="link" data-entity-1="Deliverer" data-entity-2="Site" data-source-line="79" data-uid="lnk26" id="link_Deliverer_Site">
+            <path codeLine="79" d="M324.09,770.31 C317.11,788.33 310.8974,804.3851 303.2774,824.0551" fill="none" id="Deliverer-to-Site" style="stroke:#181818;stroke-width:1;stroke-dasharray:7,7;"/>
+            <polygon fill="#181818" points="301.11,829.65,308.091,822.7027,302.9162,824.9876,300.6312,819.8128,301.11,829.65" style="stroke:#181818;stroke-width:1;"/>
+        </g>
+        <!--SRC=[ZLFDQiCm3BxdAKokWnnsp66mDeCDkZBQxG6SM6qDYHri9r3Atdssx2W9tQ4NMz-dNrjIqt9hsTl9ibl667kw01TWIlQEDrAr5jUIRVoP_MODsaTjSkdi-VlQ0yeZ62krGjc24bATA-wYpkWM9eS3d2XOY7mZZv3yY7TqWWRa6CX3af0Mq0QPgmPALiq0bOFbPq__X0k9te1jZEoTBwraNmk4waPt7LV2-g9Ajfr1p2IjCx8Uec-rG8pH4sB1wJy69PtFxi_uAEbyCKT_aldqb8STK3SRRxK00ZjUGqleLVZNMOGdgRo8jbHd27gZB1GdW3bEG8iuu7YzYhByX1GD-_4XPfcwZYXyAYXtzw4qDvqU8LZikHjCf9nlgEsrSPzJbSIa8UYD7cKOjvrkE7MJM2eXZjMUTx2SdJ1JrIHEioPxwQl0OOjYt811YTRtP8Ct_KDExddsQ2VpeYXonYtJxkBJ_aS-Ps4TY-9bMi89uWg60r5Q4iAq7yIi-aGivc1P6jd0OBqBZ0NJZ9B5Ya6RrJPWHlhFErLw6bdCSTTK2Fm7]-->
+    </g>
+</svg>
